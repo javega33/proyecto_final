@@ -82,7 +82,9 @@ Visualizaciones clave: - Barras, histogramas, mapas de calor, boxplots. - Análi
 
 ## ✅ Seguimiento de Avances
 
-El proyecto incluye una tabla de control para registrar el estado de cada entrega parcial, desde el plan de trabajo hasta el informe final.
+El proyecto incluye una tabla de control.
+
+![alt text](https://github.com/javega33/proyecto_final/docs/crono.png?raw=true)
 
 ### Leyenda de Estado
 
