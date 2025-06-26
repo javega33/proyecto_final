@@ -84,7 +84,8 @@ Visualizaciones clave: - Barras, histogramas, mapas de calor, boxplots. - Análi
 
 El proyecto incluye una tabla de control.
 
-![alt text](https://github.com/javega33/proyecto_final/docs/crono.png?raw=true)
+![alt text](https://github.com/javega33/proyecto_final/blob/docs/crono.png?raw=true)
+<img src="https://github.com/javega33/proyecto_final/blob/docs/crono.png" height="35" width="35">
 
 ### Leyenda de Estado
 
