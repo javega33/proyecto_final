@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo del Proyecto
 
-El objetivo de este proyecto es predecir la cancelación de clientes (churn) mediante el análisis de los datos proporcionados por la compañía Telecom. A partir de los resultados, se podrán identificar usuarios con alto riesgo de abandono y ofrecerles promociones o paquetes personalizados para mejorar la retención.
+El objetivo de este proyecto es predecir la cancelación de clientes mediante el análisis de los datos proporcionados por la compañía Telecom. A partir de los resultados, se podrán identificar usuarios con alto riesgo de abandono y ofrecerles promociones o paquetes personalizados para mejorar la retención.
 
 ## 🗂️ Fuentes de Datos
 
@@ -17,16 +17,68 @@ Todos los archivos están relacionados mediante el campo `customerID`.
 
 ## 🛠️ Plan de Trabajo
 
-1. Importación de bibliotecas.
-2. Carga y unión de archivos.
-3. Análisis exploratorio de datos (EDA).
-4. Preprocesamiento de datos.
-5. Balanceo de clases.
-6. Entrenamiento de modelos predictivos.
-7. Evaluación y comparación de modelos.
-8. Interpretación de resultados.
-9. Propuesta de acciones comerciales.
-10. Conclusiones.
+1. Crear proyecto en Github
+* Creación de Readme para presentación del proyecto.
+* Manejo de control de versiones.
+
+2. Carga y consolidación de datos
+* Cargar los archivos: contract.csv, personal.csv, internet.csv, phone.csv.
+* Unirlos utilizando customerID como clave principal.
+* Verificar dimensiones, columnas y tipos de datos.
+
+3. Importación de bibliotecas
+* Importar librerías necesarias como pandas, numpy, matplotlib, seaborn, sklearn, etc.
+
+4. Análisis exploratorio de datos (EDA)
+* Revisión general del conjunto de datos.
+* Detección y tratamiento de valores nulos.
+* Análisis univariado (distribución de variables).
+* Análisis bivariado con la variable objetivo.
+
+Visualizaciones clave: - Barras, histogramas, mapas de calor, boxplots. - Análisis de correlaciones.
+
+5. Preprocesamiento de datos
+* Codificación de variables categóricas (LabelEncoder, OneHotEncoder).
+* Conversión de tipos de datos.
+* Imputación de valores faltantes si aplica.
+* Normalización de variables numéricas.
+* División de datos en conjunto de entrenamiento y prueba.
+
+6. Balanceo de clases
+* Verificar si la variable objetivo está desbalanceada.
+* Aplicar técnicas de balanceo:
+  - Submuestreo de la clase mayoritaria.
+  - Sobremuestreo.
+
+7. Entrenamiento de modelos predictivos
+* Probar varios algoritmos:
+  - Regresión Logística
+  - Árboles de Decisión
+  - Random Forest
+  - Gradient Boosting (XGBoost, LightGBM, CatBoost)
+* Ajuste de hiperparámetros.
+
+8. Evaluación de modelos
+* Métricas de evaluación:
+  - Accuracy, Precision, Recall, F1-score
+* Matriz de confusión
+* Curva ROC y AUC
+* Comparación de modelos para elegir el mejor.
+
+9. Interpretación y explicación del modelo
+* Feature importance: ¿Qué factores influyen más en la cancelación?
+* Perfil típico de cliente propenso a cancelar.
+
+10. Propuesta de acciones comerciales
+* Diseño de estrategias de retención basadas en los insights:
+* Segmentos con mayor riesgo
+* Ofertas específicas para cada tipo de cliente (desarrollar promociones).
+* Automatización de alertas para clientes en riesgo.
+
+11. Conclusiones y recomendaciones
+* Resumen de hallazgos clave.
+* Modelo elegido y su rendimiento.
+* Recomendaciones prácticas para el negocio.
 
 ## ✅ Seguimiento de Avances
 
