@@ -96,11 +96,4 @@ El proyecto incluye una tabla de control.
 
 El proyecto incluye un **dashboard en Dash** para visualizar:
 
-- Comparación de métricas por modelo.
-- Gráficos de AUC.
-- Curvas ROC.
-
-Ejecuta con:
-
-```bash
-python dash_app.py
+👉 [https://proyecto-final-1slj.onrender.com/](https://proyecto-final-1slj.onrender.com/)
